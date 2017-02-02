@@ -22,9 +22,6 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
-        // It will allow library to publish debug variant only (improves performance when used as module)
-        defaultPublishConfig 'release'
-        publishNonDefault true
     }
     buildTypes {
         release {
